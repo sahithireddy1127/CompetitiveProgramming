@@ -80,9 +80,9 @@ public class MergingMeetTimes {
     public static void main(String[] args)
     {
         ArrayList<Meetings> a=new ArrayList<>();
-        a.add(new Meetings(1,10));
+        a.add(new Meetings(1,3));
         a.add(new Meetings(2,6));
-        a.add(new Meetings(3,5));
+      
         a.add(new Meetings(7,9));
 
         Collections.sort(a);
