@@ -33,12 +33,12 @@ public class BinarySearchTreeChecker {
         }
     }
     public static void main(String[] args) {
-        BinaryTreeNode bt = new BinaryTreeNode(50);
-        BinaryTreeNode a30 =bt.insertLeft(30);
-        BinaryTreeNode a60 = a30.insertRight(40);
-        BinaryTreeNode a20 = a30.insertLeft(20);
-        BinaryTreeNode a80 = bt.insertRight(80);
-        BinaryTreeNode a70 = a80.insertLeft(70);
+        BinaryTreeNode bt = new BinaryTreeNode(100);
+        BinaryTreeNode a =bt.insertLeft(60);
+        BinaryTreeNode a60 = a.insertRight(70);
+        BinaryTreeNode a20 = a.insertLeft(20);
+        BinaryTreeNode a80 = bt.insertRight(180);
+       
         
 
         BinarySearchTreeChecker obj = new BinarySearchTreeChecker();
